@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/carro" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_weight="120"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="351dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10/10/2022" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1016024401-6" />
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Prod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/border_top"
+                    android:hint="Ferrari"
+                    android:textStyle="bold"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod2"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/border_top"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod3"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_top"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:hint="$250000000"
+                    android:padding="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/prod5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_top"
+                    android:hint="Bmw"
+                    android:textStyle="bold"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod6"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/border_top"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod4"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_top"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:hint="$120000000"
+                    android:padding="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/prod7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_top"
+                    android:hint="Mazda"
+                    android:textStyle="bold"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod8"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/border_top"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod9"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_top"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:hint="$60000000"
+                    android:padding="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/prod10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_top"
+                    android:hint="Volvo"
+                    android:textStyle="bold"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod11"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/border_top"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/prod12"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_top"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:hint="$80000000"
+                    android:padding="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:text="Total"
+                android:textColor="#D81515" />
+
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:onClick="regresar"
+                android:text="Regresar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
