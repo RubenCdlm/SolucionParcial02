@@ -14,6 +14,8 @@ public class MainActivity2 extends AppCompatActivity {
      private TextView prod8;
      private TextView prod11;
      private TextView total;
+     private TextView iva;
+     private TextView bubTotal;
 
 
 
@@ -28,6 +30,8 @@ public class MainActivity2 extends AppCompatActivity {
         prod8 = (TextView) findViewById(R.id.prod8);
         prod11 = (TextView) findViewById(R.id.prod11);
         total = (TextView) findViewById(R.id.total);
+        iva = (TextView) findViewById(R.id.iva);
+        bubTotal = (TextView) findViewById(R.id.bubTotal);
 
         Bundle objEnviado = getIntent().getExtras();
         Usuario user = null;
@@ -45,7 +49,13 @@ public class MainActivity2 extends AppCompatActivity {
             prod11.setText('$'+String.valueOf(mult(80000000,user.getVolvo1())));
             int valor3 = mult(80000000,user.getVolvo1());
 
-            total.setText('$'+String.valueOf(valor+valor1+valor2+valor3));
+            double valorIva = (valor+valor1+valor2+valor3)*0.19;
+            int valorIva2 = (int) Math.round(valorIva);
+
+            iva.setText('$'+String.valueOf(valorIva2));
+            bubTotal.setText('$'+String.valueOf(valor+valor1+valor2+valor3));
+            total.setText('$'+String.valueOf(valor+valor1+valor2+valor3+valorIva2));
+
         }
 
     }
